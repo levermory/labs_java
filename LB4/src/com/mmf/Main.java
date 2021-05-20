@@ -8,15 +8,17 @@ package com.mmf;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
         var a = new Fraction(3,4);
-        var b = new Fraction(5,7);
-        System.out.println(a);
-        System.out.println(b);
+        var b = new Fraction(3,4);
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
         System.out.println(a.add(b));
         System.out.println(a.sub(b));
         System.out.println(a.mult(b));
         System.out.println(a.div(b));
         System.out.println(a.equals(b));
+
+        System.out.println(a.hashCode());
+        System.out.println(b.hashCode());
     }
 }

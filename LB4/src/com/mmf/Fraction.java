@@ -42,9 +42,8 @@ public class Fraction {
     }
     public int hashCode()
     {
-        return 1;
+        return nominator.mult(new Number(11)).add(denominator.mult(new Number(17))).getvalue();
     }
-
     public String toString()
     {
         return nominator.toString() + "/" + denominator.toString();

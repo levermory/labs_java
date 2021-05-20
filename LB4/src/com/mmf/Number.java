@@ -7,6 +7,10 @@ public class Number
     {
         value = 0;
     }
+    public Integer getvalue()
+    {
+        return value;
+    }
     public Number(int a)
     {
         this.value = a;
